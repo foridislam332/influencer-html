@@ -1,0 +1,68 @@
+@media screen and (max-width: 576px) {
+    .header {
+        padding: 20px 20px 0;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    /* hero banner styles */
+    .hero_banner {
+        display: block;
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .banner_res_image {
+        display: block;
+    }
+
+    .banner_res_image img {
+        width: 100%;
+    }
+
+    .banner_res_image::after {
+        width: 230px;
+        height: 230px;
+    }
+
+    .banner_image {
+        display: none;
+    }
+
+    .banner_content h1 {
+        font-size: 30px;
+    }
+
+    .banner_content .btn_primary {
+        margin: auto;
+    }
+
+    .logo_box {
+        grid-template-columns: repeat(4, 1fr);
+        justify-content: center;
+        gap: 30px;
+        margin: auto;
+        padding: 40px 0;
+        border: none;
+    }
+
+    .logo_box img {
+        width: 100%;
+        margin: auto;
+    }
+
+    .products {
+        margin: 0 20px;
+    }
+
+    .products_container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .featured {
+        display: block;
+        margin: 100px 20px;
+    }
+}
